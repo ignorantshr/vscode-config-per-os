@@ -1,4 +1,3 @@
-const vscode = require('vscode');
 const os = require('os');
 
 function activate(context) {

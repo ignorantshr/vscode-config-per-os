@@ -1,1 +1,9 @@
 .vscode/
+test/
+.gitignore
+.yarnrc
+**/jsconfig.json
+**/*.map
+**/.eslintrc.json
+*.vsix
+package-lock.json
