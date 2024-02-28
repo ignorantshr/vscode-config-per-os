@@ -2,7 +2,7 @@
     "name": "config-per-os",
     "displayName": "Config Per OS",
     "description": "Set config (e.g. font size) depending on the operating system",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "ignorantshr",
     "author": {
         "name": "ignorantshr",
@@ -51,7 +51,6 @@
     },
     "main": "./src/extension.js",
     "scripts": {
-        "vscode:prepublish": "node ./src/extension.js",
         "postinstall": "node ./node_modules/vscode/bin/install",
         "test": "node ./src/extension.js"
     },

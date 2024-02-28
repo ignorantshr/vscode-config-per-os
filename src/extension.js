@@ -1,4 +1,5 @@
 const os = require('os');
+const vscode = require('vscode');
 
 function activate(context) {
     setFont()
